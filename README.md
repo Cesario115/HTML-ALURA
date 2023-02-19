@@ -1,2 +1,2 @@
 # HTML-ALURA
- Projeto Barbearia
+ Projetos
