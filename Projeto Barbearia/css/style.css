@@ -1,0 +1,151 @@
+body {
+    font-family: 'montserrat', sans-serif;
+    background: linear-gradient(#fefefe, #888888);
+
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    background: #bbb;
+   
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav li {
+    display: inline;
+    margin:0 0 0 10px;
+}
+
+nav a:hover {
+    background-color: rgb(255, 189, 66);
+    border-radius: 10px;
+    padding: 0 auto;
+}
+
+.banner {
+    width: 100%; 
+    border-radius:  0 0 10px 10px;  
+    box-shadow: 6px 3px 6px  rgb(40, 83, 83);     
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+    clear: left;
+    
+}
+
+.principal {
+    padding: 3em 0;
+    
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+ .principal strong {
+    font-weight: bolder;
+ }
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float:left;
+    margin:  0 20px 20px 0;
+    border-radius: 10px;
+    box-shadow: 6px 3px 6px  rgb(40, 83, 83);
+
+}
+
+.mapa {
+    padding: 3em 0;
+    text-align: center;
+    
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    
+}
+.beneficio {
+    padding: 3m 0;
+    background: linear-gradient(#fefefe, #888888);;
+}
+
+
+.conteudo-beneficio {
+    width: 640px;
+    margin: 0 auto;
+    
+}
+
+.itens {
+    line-height: 1.5;
+    
+}
+.itens:first-child {
+    font-weight: bold;
+    
+}
+.lista-beneficio {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.imagem_beneficio{
+    width:60%;
+    border-radius: 10px;
+    box-shadow: 6px 3px 6px  rgb(40, 83, 83);
+}
+
+
+.video {
+    width: 480px;
+    margin: 2em auto;
+    
+}
+   
+
+.video iframe{
+    border-radius: 10px;
+    box-shadow: 6px 3px 6px  rgb(40, 83, 83);
+}
+
+
+footer{
+    text-align: center;    
+    background:url(..//imagens/bg.jpg);
+    padding: 15px 0;
+    margin-top: 15px;
+    
+}
+
+.copyright{
+    color: #fff;
+    font-size: 13px;
+    margin: 20px 0 0;
+
+}
+
